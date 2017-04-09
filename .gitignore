@@ -1,0 +1,9 @@
+/node_modules
+.sync-config.cson
+*.log
+*.swp
+.DS_Store
+
+public
+config/webpack-assets.json
+.idea
