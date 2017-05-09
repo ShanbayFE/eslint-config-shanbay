@@ -36,6 +36,10 @@ module.exports = {
         'import/extensions': 1,
     },
     settings: {
-        'import/external-module-folders': ['node_modules', '/usr/local/lib/node_modules'],
+        'import/resolver': {
+            node: {
+                paths: ['/usr/local/lib/node_modules'],
+            },
+        },
     },
 };
