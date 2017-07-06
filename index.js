@@ -1,24 +1,14 @@
 module.exports = {
-    extends: [require.resolve('eslint-config-airbnb')],
     env: {
         browser: true,
         node: true,
     },
     rules: {
-        indent: [
-            2,
-            4,
-            {
-                SwitchCase: 1,
-            },
-        ],
+        indent: [2, 4],
         'import/extensions': 1,
-        'no-unused-expressions': [
-            2,
-            {
-                allowShortCircuit: true,
-            },
-        ],
+        'no-unused-expressions': [2,{
+            allowShortCircuit: true,
+        }],
         'no-script-url': 1,
         'react/jsx-indent-props': [2, 4],
         'react/jsx-indent': [2, 4],
