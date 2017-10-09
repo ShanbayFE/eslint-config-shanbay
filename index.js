@@ -12,6 +12,7 @@ module.exports = {
         'no-script-url': 1,
         'no-param-reassign': 1,
         'no-plusplus': 1,
+        'no-restricted-globals': 1,
 
         'react/jsx-indent-props': [2, 4],
         'react/jsx-indent': [2, 4],
@@ -21,9 +22,10 @@ module.exports = {
         'react/no-array-index-key': 1,
 
         'jsx-a11y/label-has-for': 1,
+        'jsx-a11y/click-events-have-key-events': 1,
+        'jsx-a11y/anchor-is-valid': 1,
 
         'import/prefer-default-export': 1,
-        'import/extensions': 1,
     },
     settings: {
         'import/resolver': {
