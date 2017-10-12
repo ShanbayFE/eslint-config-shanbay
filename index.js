@@ -6,9 +6,12 @@ module.exports = {
     rules: {
         indent: [2, 4],
         'import/extensions': 1,
-        'no-unused-expressions': [2,{
-            allowShortCircuit: true,
-        }],
+        'no-unused-expressions': [
+            2,
+            {
+                allowShortCircuit: true,
+            },
+        ],
         'no-script-url': 1,
         'no-param-reassign': 1,
         'no-plusplus': 1,
@@ -23,7 +26,14 @@ module.exports = {
 
         'jsx-a11y/label-has-for': 1,
         'jsx-a11y/click-events-have-key-events': 1,
-        'jsx-a11y/anchor-is-valid': 1,
+        'jsx-a11y/anchor-is-valid': [
+            'error',
+            {
+                components: ['Link'],
+                specialLink: ['hrefLeft', 'hrefRight', 'to'],
+                aspects: ['noHref', 'invalidHref', 'preferButton'],
+            },
+        ],
 
         'import/prefer-default-export': 1,
     },
