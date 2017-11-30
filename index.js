@@ -42,6 +42,9 @@ module.exports = {
             node: {
                 paths: ['/usr/local/lib/node_modules'],
             },
+            webpack: {
+                config: 'webpack.config.babel.js',
+            },
         },
     },
 };
