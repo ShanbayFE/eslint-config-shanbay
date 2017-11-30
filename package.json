@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-shanbay",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "eslint config for shanbay fe team",
   "main": "index.js",
   "license": "MIT",
