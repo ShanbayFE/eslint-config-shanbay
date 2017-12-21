@@ -1,5 +1,5 @@
 module.exports = {
-    global: {
+    globals: {
         $: true,
         wx: true,
         template: true,
@@ -14,6 +14,10 @@ module.exports = {
         'import/extensions': 0,
         'import/prefer-default-export': 1,
         'import/no-extraneous-dependencies': 0,
+        'import/no-unresolved': 0,
+        'import/no-duplicates': 0,
+        'import/no-named-as-default': 0,
+        'import/no-named-as-default-member': 0,
         'no-unused-expressions': [
             2,
             {
@@ -32,23 +36,6 @@ module.exports = {
         'react/no-array-index-key': 1,
         'jsx-a11y/label-has-for': 1,
         'jsx-a11y/click-events-have-key-events': 1,
-        'jsx-a11y/anchor-is-valid': [
-            1,
-            {
-                components: ['Link'],
-                specialLink: ['hrefLeft', 'hrefRight', 'to'],
-                aspects: ['noHref', 'invalidHref', 'preferButton'],
-            },
-        ],
-    },
-    settings: {
-        'import/resolver': {
-            node: {
-                paths: ['/usr/local/lib/node_modules'],
-            },
-            webpack: {
-                config: 'webpack.config.eslint.js',
-            },
-        },
+        'jsx-a11y/anchor-is-valid': 0,
     },
 };
