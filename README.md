@@ -1,8 +1,10 @@
 # eslint-config-shanbay
 
-Extensions to [eslint-config-airbnb](https://npmjs.com/eslint-config-airbnb).
+Improving [eslint-config-airbnb](https://npmjs.com/eslint-config-airbnb).
 
 ## Install
+
+**Note:** please ensure `eslint-config-airbnb` and `eslint` has been installed!
 
 ```sh
 npm i -D eslint-config-shanbay
