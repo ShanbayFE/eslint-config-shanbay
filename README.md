@@ -1,21 +1,27 @@
 # eslint-config-shanbay
 
-Base on `eslint-config-airbnb` and `eslint-plugin-import`.
+Improving [eslint-config-airbnb](https://npmjs.com/eslint-config-airbnb).
 
 ## Install
 
-> npm i -D eslint-config-shanbay
+**Note:** please ensure `eslint-config-airbnb` and `eslint` has been installed!
+
+```sh
+npm i -D eslint-config-shanbay
+```
 
 or in global
 
-> npm i -g eslint-config-shanbay
+```sh
+npm i -g eslint-config-shanbay
+```
 
 ## Usage
 
 In `.eslintrc.json` or `.eslintrc`:
 
-```
+```json
 {
-    extends: ['airbnb', 'shanbay']
+    "extends": ["airbnb", "shanbay"]
 }
 ```
