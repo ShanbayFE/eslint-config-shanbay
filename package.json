@@ -2,14 +2,14 @@
   "name": "eslint-config-shanbay",
   "version": "1.0.1",
   "description": "Eslint config for shanbay fe team",
-  "main": "index.js",
+  "files": ["index.js", "base.js"],
   "license": "MIT",
   "repository": "https://github.com/ShanbayFE/eslint-config-shanbay",
   "peerDependencies": {
     "eslint": "^4.13.1",
     "eslint-config-airbnb": "^16.1.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "babel-eslint": "^8.1.2"
   }
 }
