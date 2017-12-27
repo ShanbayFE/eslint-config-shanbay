@@ -1,8 +1,11 @@
 {
   "name": "eslint-config-shanbay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Eslint config for shanbay fe team",
-  "files": ["index.js", "base.js"],
+  "files": [
+    "index.js",
+    "base.js"
+  ],
   "license": "MIT",
   "repository": "https://github.com/ShanbayFE/eslint-config-shanbay",
   "peerDependencies": {
