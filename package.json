@@ -1,18 +1,18 @@
 {
-  "name": "eslint-config-shanbay",
-  "version": "1.0.2",
-  "description": "Eslint config for shanbay fe team",
-  "files": [
-    "index.js",
-    "base.js"
-  ],
-  "license": "MIT",
-  "repository": "https://github.com/ShanbayFE/eslint-config-shanbay",
-  "peerDependencies": {
-    "eslint": "^4.13.1",
-    "eslint-config-airbnb": "^16.1.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.1.2"
-  }
+    "name": "eslint-config-shanbay",
+    "version": "1.0.3-alpha.1",
+    "description": "Eslint config for shanbay fe team",
+    "files": [
+        "index.js",
+        "base.js"
+    ],
+    "license": "MIT",
+    "repository": "https://github.com/ShanbayFE/eslint-config-shanbay",
+    "devDependencies": {
+        "babel-eslint": "^8.1.2",
+        "eslint": "^5.16.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-config-prettier": "^4.1.0"
+    }
 }
