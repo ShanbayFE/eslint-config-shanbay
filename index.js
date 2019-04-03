@@ -1,9 +1,5 @@
 module.exports = {
-    globals: {
-        $: true,
-        wx: true,
-        template: true,
-    },
+    extends: ['airbnb', 'prettier', 'prettier/react', 'prettier/vue'],
     parser: 'babel-eslint',
     env: {
         browser: true,
@@ -38,9 +34,13 @@ module.exports = {
         'react/no-array-index-key': 1,
         'react/jsx-curly-brace-presence': 1,
         'jsx-a11y/no-autofocus': 0,
+        'react/no-did-mount-set-state': 0,
         'jsx-a11y/label-has-for': 1,
         'jsx-a11y/click-events-have-key-events': 1,
         'jsx-a11y/anchor-is-valid': 0,
         'jsx-a11y/no-static-element-interactions': 1,
+        'jsx-a11y/no-noninteractive-element-interactions': 0,
+        'jsx-a11y/click-events-have-key-events': 0,
+        'jsx-a11y/media-has-caption': 0,
     },
 };

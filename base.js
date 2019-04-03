@@ -1,9 +1,5 @@
 module.exports = {
-    globals: {
-        $: true,
-        wx: true,
-        template: true,
-    },
+    extends: 'airbnb-base',
     parser: 'babel-eslint',
     env: {
         browser: true,
